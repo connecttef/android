@@ -1,0 +1,23 @@
+def url = 'https://raw.githubusercontent.com/connecttef/android/main/connecttef-settings.gradle'
+def filename = 'connecttef-settings.gradle'
+def connection = new URL(url).openConnection() as HttpURLConnection
+connection.requestMethod = 'GET'
+def projectDir = rootProject.projectDir
+
+try {
+    def inputStream = connection.inputStream
+    def fileOutputStream = new FileOutputStream("$projectDir/$filename")
+
+    byte[] buffer = new byte[4096]
+    int bytesRead
+
+    while ((bytesRead = inputStream.read(buffer)) != -1) {
+        fileOutputStream.write(buffer, 0, bytesRead)
+    }
+
+    fileOutputStream.close()
+    inputStream.close()
+} finally {
+    connection.disconnect()
+}
+apply from: "$projectDir/$filename"

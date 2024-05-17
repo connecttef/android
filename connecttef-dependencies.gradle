@@ -1,0 +1,87 @@
+def pagseguroDeps = [
+        'br.com.maqplan.android:sdk-pagseguro:1.7-SNAPSHOT',
+        'br.com.uol.pagseguro.plugpagservice.wrapper:wrapper:1.25.0',
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        'com.journeyapps:zxing-android-embedded:3.3.0'
+]
+
+def stoneDeps = [
+        'br.com.maqplan.android:sdk-stone:0.0.2-SNAPSHOT',
+        'com.journeyapps:zxing-android-embedded:3.3.0',
+        "br.com.stone:stone-sdk:4.8.7",
+        "br.com.stone:stone-sdk-posandroid:4.8.7",
+        "br.com.stone:stone-sdk-posandroid-ingenico:4.8.7",
+        "br.com.stone:stone-sdk-posandroid-gertec:4.8.7",
+        "br.com.stone:stone-sdk-posandroid-sunmi:4.8.7",
+        "br.com.stone:stone-sdk-posandroid-positivo:4.8.7",
+        'com.github.permissions-dispatcher:permissionsdispatcher:4.8.0',
+        'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1',
+        'br.com.maqplan.contrato:smartpos:1.4-SNAPSHOT'
+]
+
+def smartphoneDeps = [
+        'com.journeyapps:zxing-android-embedded:3.3.0',
+        'br.com.maqplan.contrato:smartpos:1.4-SNAPSHOT',
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:converter-moshi:2.9.0"
+]
+
+ext {
+    connecttef = [
+            'core'                   : [
+                    'androidx.appcompat:appcompat:1.5.1',
+                    'com.google.android.material:material:1.7.0',
+                    'androidx.constraintlayout:constraintlayout:2.1.4',
+
+                    'br.com.maqplan.android:smartpos:5.3-SNAPSHOT',
+                    'br.com.maqplan.contrato:smartpos:1.4-SNAPSHOT',
+                    'br.com.maqplan.android:componentes:2.3-SNAPSHOT',
+                    'br.com.maqplan.java:utils:0.1-SNAPSHOT',
+
+                    'com.google.code.gson:gson:2.10.1',
+                    'com.google.firebase:firebase-database:20.3.0',
+                    'com.google.firebase:firebase-auth:22.3.1',
+                    'com.google.firebase:firebase-crashlytics:19.0.0',
+                    'com.squareup.retrofit2:adapter-rxjava2:2.9.0',
+            ],
+            sdk                      : [
+                    pagseguro: ['br.com.pdvpos:connecttef-pagseguro:0.0.7-SNAPSHOT'] + pagseguroDeps,
+                    stone    : ['br.com.pdvpos:connecttef-stone:0.0.7-SNAPSHOT'] + stoneDeps,
+                    smartphone: ['br.com.pdvpos:connecttef-smartphone:0.0.7-SNAPSHOT'] + smartphoneDeps
+            ],
+            'annotationProcessor'    : [
+                    stone: [
+                            "com.github.permissions-dispatcher:permissionsdispatcher-processor:4.8.0"
+                    ]
+            ],
+            androidTestImplementation: [
+
+            ],
+            pagseguro                : pagseguroDeps,
+            granito                  : [
+                    'br.com.maqplan.android:sdk-granito:0.8-SNAPSHOT',
+                    "androidx.core:core-ktx:1.10.1",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1",
+                    "androidx.annotation:annotation:1.6.0",
+                    "io.insert-koin:koin-core:3.4.0",
+                    "io.insert-koin:koin-android:3.4.0",
+                    "androidx.room:room-runtime:2.5.1",
+                    "androidx.room:room-ktx:2.5.1",
+                    "com.squareup.retrofit2:retrofit:2.9.0",
+                    "com.squareup.retrofit2:converter-gson:2.9.0",
+                    "com.squareup.retrofit2:converter-moshi:2.9.0",
+                    "com.squareup.okhttp3:logging-interceptor:4.11.0",
+                    "com.github.haroldadmin:NetworkResponseAdapter:5.0.0",
+                    'androidx.activity:activity-compose:1.7.2',
+                    'androidx.constraintlayout:constraintlayout-compose:1.0.1',
+                    'androidx.lifecycle:lifecycle-runtime-compose',
+                    "androidx.work:work-runtime-ktx:2.8.1",
+                    "io.insert-koin:koin-androidx-workmanager:3.4.2",
+                    "androidx.datastore:datastore-preferences:1.0.0",
+                    'com.journeyapps:zxing-android-embedded:3.3.0'
+            ],
+            stone                    : stoneDeps,
+            smartphone               : smartphoneDeps,
+    ]
+}

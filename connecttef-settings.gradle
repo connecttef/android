@@ -1,0 +1,36 @@
+dependencyResolutionManagement {
+    repositories {
+        maven { url "https://jitpack.io" }
+        maven {
+            url 'https://github.com/pagseguro/PlugPagServiceWrapper/raw/master'
+        }
+        maven { url "https://packagecloud.io/priv/%s/stone/pos-android/maven2".formatted(System.getenv("TOKEN_DEVELOP_STONE")) }
+        maven { url "https://packagecloud.io/priv/%s/stone/pos-android-internal/maven2".formatted(System.getenv("TOKEN_DEVELOP_STONE")) }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/meucontato/maqplan-android")
+            credentials {
+                username = System.getenv("GITHUB_USERNAME")
+                password = System.getenv("GITHUB_TOKEN_DEVELOP")
+            }
+        }
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/meucontato/maqplan-java")
+            credentials {
+                username = System.getenv("GITHUB_USERNAME")
+                password = System.getenv("GITHUB_TOKEN_DEVELOP")
+            }
+        }
+
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/connecttef/android")
+            credentials {
+                username = System.getenv("CONNECTTEF_USERNAME")
+                password = System.getenv("CONNECTTEF_TOKEN")
+            }
+        }
+    }
+}
