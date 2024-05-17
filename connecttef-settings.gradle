@@ -9,23 +9,6 @@ dependencyResolutionManagement {
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/meucontato/maqplan-android")
-            credentials {
-                username = System.getenv("GITHUB_USERNAME")
-                password = System.getenv("GITHUB_TOKEN_DEVELOP")
-            }
-        }
-        maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/meucontato/maqplan-java")
-            credentials {
-                username = System.getenv("GITHUB_USERNAME")
-                password = System.getenv("GITHUB_TOKEN_DEVELOP")
-            }
-        }
-
-        maven {
-            name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/connecttef/android")
             credentials {
                 username = System.getenv("CONNECTTEF_USERNAME")
