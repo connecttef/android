@@ -46,9 +46,9 @@ ext {
                     'com.squareup.retrofit2:adapter-rxjava2:2.9.0',
             ],
             sdk                      : [
-                    pagseguro : ['br.com.pdvpos:connecttef-pagseguro:0.1.6-SNAPSHOT'] + pagseguroDeps,
-                    stone     : ['br.com.pdvpos:connecttef-stone:0.1.6-SNAPSHOT'] + stoneDeps,
-                    smartphone: ['br.com.pdvpos:connecttef-smartphone:0.1.6-SNAPSHOT'] + smartphoneDeps
+                    pagseguro : ['br.com.pdvpos:connecttef-pagseguro:0.1.7-SNAPSHOT'] + pagseguroDeps,
+                    stone     : ['br.com.pdvpos:connecttef-stone:0.1.7-SNAPSHOT'] + stoneDeps,
+                    smartphone: ['br.com.pdvpos:connecttef-smartphone:0.1.7-SNAPSHOT'] + smartphoneDeps
             ],
             'annotationProcessor'    : [
                     stone: [
