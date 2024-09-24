@@ -1,5 +1,5 @@
 def pagseguroDeps = [
-        'br.com.maqplan.android:sdk-pagseguro:2.8-SNAPSHOT',
+        'br.com.maqplan.android:sdk-pagseguro:2.9-SNAPSHOT',
         'br.com.uol.pagseguro.plugpagservice.wrapper:wrapper:1.25.0',
         "com.squareup.retrofit2:converter-gson:2.9.0",
         'com.journeyapps:zxing-android-embedded:3.3.0'
@@ -16,12 +16,12 @@ def stoneDeps = [
         "br.com.stone:stone-sdk-posandroid-positivo:4.8.7",
         'com.github.permissions-dispatcher:permissionsdispatcher:4.8.0',
         'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1',
-        'br.com.maqplan.contrato:smartpos:2.5-SNAPSHOT'
+        'br.com.maqplan.contrato:smartpos:3.1-SNAPSHOT'
 ]
 
 def smartphoneDeps = [
         'com.journeyapps:zxing-android-embedded:3.3.0',
-        'br.com.maqplan.contrato:smartpos:2.5-SNAPSHOT',
+        'br.com.maqplan.contrato:smartpos:3.1-SNAPSHOT',
         "com.squareup.retrofit2:retrofit:2.9.0",
         "com.squareup.retrofit2:converter-gson:2.9.0",
         "com.squareup.retrofit2:converter-moshi:2.9.0"
@@ -35,7 +35,7 @@ ext {
                     'androidx.constraintlayout:constraintlayout:2.1.4',
 
                     'br.com.maqplan.android:smartpos:7.8-SNAPSHOT',
-                    'br.com.maqplan.contrato:smartpos:2.5-SNAPSHOT',
+                    'br.com.maqplan.contrato:smartpos:3.1-SNAPSHOT',
                     'br.com.maqplan.android:componentes:2.3-SNAPSHOT',
                     'br.com.maqplan.java:utils:0.1-SNAPSHOT',
 
