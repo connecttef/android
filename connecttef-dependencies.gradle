@@ -46,7 +46,7 @@ ext {
                     'com.squareup.retrofit2:adapter-rxjava2:2.9.0',
             ],
             sdk                      : [
-                    pagseguro : ['0.3.0-SNAPSHOT'] + pagseguroDeps,
+                    pagseguro : ['br.com.pdvpos:connecttef-pagseguro:0.3.0-SNAPSHOT'] + pagseguroDeps,
                     stone     : ['br.com.pdvpos:connecttef-stone:0.3.0-SNAPSHOT'] + stoneDeps,
                     smartphone: ['br.com.pdvpos:connecttef-smartphone:0.3.0-SNAPSHOT'] + smartphoneDeps
             ],
