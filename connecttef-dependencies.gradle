@@ -47,7 +47,7 @@ ext {
                     'com.google.zxing:core:3.3.0',
                     'me.dm7.barcodescanner:core:1.9.8',
                     'me.dm7.barcodescanner:zxing:1.9.8',
-                    'br.com.pdvpos:coletor:0.0.2-SNAPSHOT',
+                    'br.com.pdvpos:coletor:0.0.3-SNAPSHOT',
             ],
             sdk                      : [
                     pagseguro : ['br.com.pdvpos:connecttef-pagseguro:0.3.3-SNAPSHOT'] + pagseguroDeps,
