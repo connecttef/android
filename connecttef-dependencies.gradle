@@ -1,13 +1,11 @@
 def pagseguroDeps = [
         'br.com.maqplan.android:sdk-pagseguro:3.0-SNAPSHOT',
         'br.com.uol.pagseguro.plugpagservice.wrapper:wrapper:1.25.0',
-        "com.squareup.retrofit2:converter-gson:2.9.0",
-        'com.journeyapps:zxing-android-embedded:3.3.0'
+        "com.squareup.retrofit2:converter-gson:2.9.0"
 ]
 
 def stoneDeps = [
         'br.com.maqplan.android:sdk-stone:0.1.4-SNAPSHOT',
-        'com.journeyapps:zxing-android-embedded:3.3.0',
         "br.com.stone:stone-sdk:4.8.7",
         "br.com.stone:stone-sdk-posandroid:4.8.7",
         "br.com.stone:stone-sdk-posandroid-ingenico:4.8.7",
@@ -20,7 +18,6 @@ def stoneDeps = [
 ]
 
 def smartphoneDeps = [
-        'com.journeyapps:zxing-android-embedded:3.3.0',
         'br.com.maqplan.contrato:smartpos:3.2-SNAPSHOT',
         "com.squareup.retrofit2:retrofit:2.9.0",
         "com.squareup.retrofit2:converter-gson:2.9.0",
@@ -84,8 +81,7 @@ ext {
                     'androidx.lifecycle:lifecycle-runtime-compose',
                     "androidx.work:work-runtime-ktx:2.8.1",
                     "io.insert-koin:koin-androidx-workmanager:3.4.2",
-                    "androidx.datastore:datastore-preferences:1.0.0",
-                    'com.journeyapps:zxing-android-embedded:3.3.0'
+                    "androidx.datastore:datastore-preferences:1.0.0"
             ],
             stone                    : stoneDeps,
             smartphone               : smartphoneDeps,
