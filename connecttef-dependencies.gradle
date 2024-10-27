@@ -36,7 +36,7 @@ ext {
 
                     'br.com.maqplan.android:smartpos:9.3-SNAPSHOT',
                     'br.com.maqplan.contrato:smartpos:3.2-SNAPSHOT',
-                    'br.com.maqplan.android:componentes:2.3-SNAPSHOT',
+                    'br.com.maqplan.android:componentes:2.4-SNAPSHOT',
                     'br.com.maqplan.java:utils:0.1-SNAPSHOT',
 
                     'com.google.code.gson:gson:2.10.1',
