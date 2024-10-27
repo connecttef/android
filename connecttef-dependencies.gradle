@@ -43,7 +43,9 @@ ext {
                     'com.squareup.retrofit2:adapter-rxjava2:2.9.0',
 
                     'android.arch.paging:runtime:1.0.1',
-                    'androidx.room:room-runtime:2.6.1'
+                    'androidx.room:room-runtime:2.6.1',
+                    'me.dm7.barcodescanner:zxing:1.9.8',
+                    'me.dm7.barcodescanner:core:1.9.8'
             ],
             sdk                      : [
                     pagseguro : ['br.com.pdvpos:connecttef-pagseguro:0.3.3-SNAPSHOT'] + pagseguroDeps,
