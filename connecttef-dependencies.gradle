@@ -55,11 +55,14 @@ ext {
                     smartphone: ['br.com.pdvpos:connecttef-smartphone:0.3.3-SNAPSHOT'] + smartphoneDeps
             ],
             'annotationProcessor'    : [
-                    stone: [
+                    stone  : [
                             "com.github.permissions-dispatcher:permissionsdispatcher-processor:4.8.0"
                     ],
-                    core : [
+                    core   : [
                             'androidx.room:room-compiler:2.6.1'
+                    ],
+                    phoebus: [
+                            "org.parceler:parceler:1.1.12"
                     ]
             ],
             androidTestImplementation: [
