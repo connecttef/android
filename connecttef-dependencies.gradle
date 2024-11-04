@@ -90,6 +90,10 @@ ext {
                     "io.insert-koin:koin-androidx-workmanager:3.4.2",
                     "androidx.datastore:datastore-preferences:1.0.0"
             ],
+            phoebus                  : [
+                    "org.parceler:parceler-api:1.1.12",
+                    "com.jakewharton.threetenabp:threetenabp:1.0.5"
+            ],
             stone                    : stoneDeps,
             smartphone               : smartphoneDeps,
     ]
