@@ -92,7 +92,8 @@ ext {
             ],
             phoebus                  : [
                     "org.parceler:parceler-api:1.1.12",
-                    "com.jakewharton.threetenabp:threetenabp:1.0.5"
+                    "com.jakewharton.threetenabp:threetenabp:1.0.5",
+                    "com.squareup.retrofit2:converter-gson:2.9.0"
             ],
             stone                    : stoneDeps,
             smartphone               : smartphoneDeps,
