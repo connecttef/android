@@ -6,7 +6,7 @@ def pagseguroDeps = [
 ]
 
 def stoneDeps = [
-        'br.com.maqplan.android:sdk-stone:0.1.4-SNAPSHOT',
+        'br.com.maqplan.android:sdk-stone:0.1.5-SNAPSHOT',
         "br.com.stone:stone-sdk:4.8.7",
         "br.com.stone:stone-sdk-posandroid:4.8.7",
         "br.com.stone:stone-sdk-posandroid-ingenico:4.8.7",
