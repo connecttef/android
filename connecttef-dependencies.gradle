@@ -6,6 +6,7 @@ def pagseguroDeps = [
 ]
 
 def cloverDeps = [
+        'br.com.maqplan.android:sdk-clover:0.1-SNAPSHOT',
         'br.com.maqplan.contrato:smartpos:3.3-SNAPSHOT',
         'com.google.code.gson:gson:2.10.1',
         'br.com.maqplan.java:utils:0.1-SNAPSHOT',
