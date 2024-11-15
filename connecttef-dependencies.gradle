@@ -5,6 +5,13 @@ def pagseguroDeps = [
         'com.google.code.gson:gson:2.10.1'
 ]
 
+def cloverDeps = [
+        'br.com.maqplan.contrato:smartpos:3.3-SNAPSHOT',
+        'com.google.code.gson:gson:2.10.1',
+        'br.com.maqplan.java:utils:0.1-SNAPSHOT',
+        "com.clover.sdk:clover-android-sdk:latest.release"
+]
+
 def stoneDeps = [
         'br.com.maqplan.android:sdk-stone:0.1.5-SNAPSHOT',
         "br.com.stone:stone-sdk:4.8.7",
@@ -98,5 +105,6 @@ ext {
             ],
             stone                    : stoneDeps,
             smartphone               : smartphoneDeps,
+            clover                   : cloverDeps
     ]
 }
