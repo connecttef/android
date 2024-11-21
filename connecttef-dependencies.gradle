@@ -41,7 +41,7 @@ ext {
                     'com.google.android.material:material:1.7.0',
                     'androidx.constraintlayout:constraintlayout:2.1.4',
 
-                    'br.com.maqplan.android:smartpos:2.2-SNAPSHOT',
+                    'br.com.maqplan.android:smartpos:1.0.3-SNAPSHOT',
                     'br.com.maqplan.contrato:smartpos:3.3-SNAPSHOT',
                     'br.com.maqplan.android:componentes:2.4-SNAPSHOT',
                     'br.com.maqplan.java:utils:0.1-SNAPSHOT',
