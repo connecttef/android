@@ -14,6 +14,13 @@ def cloverDeps = [
         "com.clover.sdk:clover-android-sdk:latest.release"
 ]
 
+def cieloDeps = [
+        'com.cielo.lio:order-manager:2.1.7',
+        'br.com.maqplan.contrato:smartpos:3.3-SNAPSHOT',
+        'br.com.maqplan.java:utils:0.1-SNAPSHOT',
+        'com.google.code.gson:gson:2.10.1'
+]
+
 def stoneDeps = [
         'br.com.maqplan.android:sdk-stone:0.1.5-SNAPSHOT',
         "br.com.stone:stone-sdk:4.8.7",
@@ -107,6 +114,7 @@ ext {
             ],
             stone                    : stoneDeps,
             smartphone               : smartphoneDeps,
-            clover                   : cloverDeps
+            clover                   : cloverDeps,
+            cielo                    : cieloDeps
     ]
 }
