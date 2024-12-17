@@ -41,6 +41,11 @@ def smartphoneDeps = [
         "com.squareup.retrofit2:converter-moshi:2.9.0"
 ]
 
+def veroDeps = [
+        'br.com.maqplan.android:sdk-vero:1.0-SNAPSHOT',
+        'com.sunmi:printerlibrary:1.0.22'
+]
+
 ext {
     connecttef = [
             'core'                   : [
@@ -118,6 +123,7 @@ ext {
             stone                    : stoneDeps,
             smartphone               : smartphoneDeps,
             clover                   : cloverDeps,
-            cielo                    : cieloDeps
+            cielo                    : cieloDeps,
+            vero                     : veroDeps
     ]
 }
