@@ -112,6 +112,9 @@ ext {
                     "com.jakewharton.threetenabp:threetenabp:1.0.5",
                     "com.squareup.retrofit2:converter-gson:2.9.0"
             ],
+            vero                     : [
+                    'com.sunmi:printerlibrary:1.0.22'
+            ],
             stone                    : stoneDeps,
             smartphone               : smartphoneDeps,
             clover                   : cloverDeps,
