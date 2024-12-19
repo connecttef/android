@@ -5,6 +5,11 @@ def pagseguroDeps = [
         'com.google.code.gson:gson:2.10.1'
 ]
 
+def fiservDeps = [
+        'br.com.maqplan.android:sdk-fiserv:1.0-SNAPSHOT',
+        "com.squareup.retrofit2:converter-gson:2.9.0"
+]
+
 def cloverDeps = [
         'br.com.pdvpos:sdk-clover:0.3-SNAPSHOT',
         'br.com.maqplan.contrato:smartpos:3.4-SNAPSHOT',
@@ -125,6 +130,7 @@ ext {
             smartphone               : smartphoneDeps,
             clover                   : cloverDeps,
             cielo                    : cieloDeps,
-            vero                     : veroDeps
+            vero                     : veroDeps,
+            fiserv                   : fiservDeps
     ]
 }
