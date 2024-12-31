@@ -1,6 +1,6 @@
 def pagseguroDeps = [
         'br.com.maqplan.android:sdk-pagseguro:3.8-SNAPSHOT',
-        'br.com.uol.pagseguro.plugpagservice.wrapper:wrapper:1.29.0',
+        'br.com.uol.pagseguro.plugpagservice.wrapper:wrapper:1.3.3',
         "com.squareup.retrofit2:converter-gson:2.9.0",
         'com.google.code.gson:gson:2.10.1'
 ]
