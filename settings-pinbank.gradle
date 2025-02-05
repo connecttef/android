@@ -1,9 +1,12 @@
-String url = 'https://raw.githubusercontent.com/connecttef/android/main/connecttef-dependencies-pinbank.gradle'
+def url = 'https://raw.githubusercontent.com/connecttef/android/main/connecttef-settings-pinbank.gradle'
+def filename = 'connecttef-settings-pinbank.gradle'
 def connection = new URL(url).openConnection() as HttpURLConnection
 connection.requestMethod = 'GET'
+def projectDir = rootProject.projectDir
+
 try {
     def inputStream = connection.inputStream
-    def fileOutputStream = new FileOutputStream('connecttef-dependencies-pinbank.gradle')
+    def fileOutputStream = new FileOutputStream("$projectDir/$filename")
 
     byte[] buffer = new byte[4096]
     int bytesRead
@@ -14,8 +17,7 @@ try {
 
     fileOutputStream.close()
     inputStream.close()
-
 } finally {
     connection.disconnect()
 }
-apply from: 'connecttef-dependencies.gradle'
+apply from: "$projectDir/$filename"

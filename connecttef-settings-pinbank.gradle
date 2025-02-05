@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositories {
+        maven { url "https://jitpack.io" }
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/connecttef/android")
+            credentials {
+                username = System.getenv("CONNECTTEF_USERNAME")
+                password = System.getenv("CONNECTTEF_TOKEN")
+            }
+        }
+    }
+}
