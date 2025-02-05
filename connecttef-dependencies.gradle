@@ -10,6 +10,12 @@ def fiservDeps = [
         "com.squareup.retrofit2:converter-gson:2.9.0"
 ]
 
+def pinbankDeps = [
+        'br.com.maqplan.android:sdk-pinbank:2.2-SNAPSHOT',
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        'com.payneteasy:ber-tlv:1.0-8'
+]
+
 def cloverDeps = [
         'br.com.pdvpos:sdk-clover:0.3-SNAPSHOT',
         'br.com.maqplan.contrato:smartpos:3.4-SNAPSHOT',
@@ -72,7 +78,7 @@ ext {
 
                     'android.arch.paging:runtime:1.0.1',
                     'androidx.room:room-runtime:2.6.1',
-                    'com.google.zxing:core:3.3.0',
+                    'com.google.zxing:core:3.3.2',
                     'me.dm7.barcodescanner:core:1.9.8',
                     'me.dm7.barcodescanner:zxing:1.9.8',
                     'br.com.pdvpos:coletor:0.0.5-SNAPSHOT',
@@ -131,6 +137,7 @@ ext {
             clover                   : cloverDeps,
             cielo                    : cieloDeps,
             vero                     : veroDeps,
-            fiserv                   : fiservDeps
+            fiserv                   : fiservDeps,
+            pinbank                  : pinbankDeps
     ]
 }
