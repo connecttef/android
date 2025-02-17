@@ -17,7 +17,7 @@ def pinbankDeps = [
 ]
 
 def cloverDeps = [
-        'br.com.pdvpos:sdk-clover:0.3-SNAPSHOT',
+        'br.com.pdvpos:sdk-clover:0.4-SNAPSHOT',
         'br.com.maqplan.contrato:smartpos:3.4-SNAPSHOT',
         'com.google.code.gson:gson:2.10.1',
         'br.com.maqplan.java:utils:0.1-SNAPSHOT',
