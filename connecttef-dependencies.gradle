@@ -33,7 +33,7 @@ def cieloDeps = [
 ]
 
 def stoneDeps = [
-        'br.com.maqplan.android:sdk-stone:0.1.6-SNAPSHOT',
+        'br.com.maqplan.android:sdk-stone:0.1.8-SNAPSHOT',
         "br.com.stone:stone-sdk:4.8.7",
         "br.com.stone:stone-sdk-posandroid:4.8.7",
         "br.com.stone:stone-sdk-posandroid-ingenico:4.8.7",
