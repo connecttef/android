@@ -104,7 +104,7 @@ ext {
             ],
             pagseguro                : pagseguroDeps,
             granito                  : [
-                    'br.com.maqplan.android:sdk-granito:1.0.0.1',
+                    'br.com.maqplan.android:sdk-granito:1.0.0.2',
                     "androidx.core:core-ktx:1.10.1",
                     "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1",
                     "androidx.annotation:annotation:1.6.0",
@@ -122,7 +122,9 @@ ext {
                     'androidx.lifecycle:lifecycle-runtime-compose',
                     "androidx.work:work-runtime-ktx:2.8.1",
                     "io.insert-koin:koin-androidx-workmanager:3.4.2",
-                    "androidx.datastore:datastore-preferences:1.0.0"
+                    "androidx.datastore:datastore-preferences:1.0.0",
+                    'com.journeyapps:zxing-android-embedded:4.3.0',
+                    "androidx.multidex:multidex:2.0.1"
             ],
             phoebus                  : [
                     "org.parceler:parceler-api:1.1.12",
