@@ -78,11 +78,11 @@ ext {
 
                     'android.arch.paging:runtime:1.0.1',
                     'androidx.room:room-runtime:2.6.1',
-                    'com.google.zxing:core:3.5.1',
-                    'me.dm7.barcodescanner:core:1.9.8',
-                    'me.dm7.barcodescanner:zxing:1.9.8',
                     'br.com.pdvpos:coletor:0.0.5-SNAPSHOT',
             ],
+//                    'com.google.zxing:core:3.5.1',
+//                    'me.dm7.barcodescanner:core:1.9.8',
+//                    'me.dm7.barcodescanner:zxing:1.9.8',
             sdk                      : [
                     pagseguro : ['br.com.pdvpos:connecttef-pagseguro:0.3.3-SNAPSHOT'] + pagseguroDeps,
                     stone     : ['br.com.pdvpos:connecttef-stone:0.3.3-SNAPSHOT'] + stoneDeps,
@@ -123,9 +123,8 @@ ext {
                     "androidx.work:work-runtime-ktx:2.8.1",
                     "io.insert-koin:koin-androidx-workmanager:3.4.2",
                     "androidx.datastore:datastore-preferences:1.0.0",
-                    'com.journeyapps:zxing-android-embedded:4.3.0',
                     "androidx.multidex:multidex:2.0.1"
-            ],
+            ],//                    'com.journeyapps:zxing-android-embedded:4.3.0',
             phoebus                  : [
                     "org.parceler:parceler-api:1.1.12",
                     "com.jakewharton.threetenabp:threetenabp:1.0.5",
