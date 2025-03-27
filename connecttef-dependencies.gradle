@@ -16,6 +16,11 @@ def pinbankDeps = [
         'com.payneteasy:ber-tlv:1.0-8'
 ]
 
+def getNetDeps = [
+        'br.com.pdvpos:sdk-getnet:1.1-SNAPSHOT',
+        "com.squareup.retrofit2:converter-gson:2.9.0"
+]
+
 def cloverDeps = [
         'br.com.pdvpos:sdk-clover:0.5-SNAPSHOT',
         'br.com.maqplan.contrato:smartpos:3.4-SNAPSHOT',
@@ -65,7 +70,7 @@ ext {
                     'com.google.android.material:material:1.7.0',
                     'androidx.constraintlayout:constraintlayout:2.1.4',
 
-                    'br.com.maqplan.android:smartpos:1.2.8-SNAPSHOT',
+                    'br.com.maqplan.android:smartpos:1.2.9-SNAPSHOT',
                     'br.com.maqplan.contrato:smartpos:3.4-SNAPSHOT',
                     'br.com.maqplan.android:componentes:2.5-SNAPSHOT',
                     'br.com.maqplan.java:utils:0.1-SNAPSHOT',
@@ -140,6 +145,7 @@ ext {
             cielo                    : cieloDeps,
             vero                     : veroDeps,
             fiserv                   : fiservDeps,
-            pinbank                  : pinbankDeps
+            pinbank                  : pinbankDeps,
+            getnet                   : getNetDeps,
     ]
 }
