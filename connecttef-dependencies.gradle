@@ -31,7 +31,7 @@ def cloverDeps = [
 ]
 
 def cieloDeps = [
-        'com.cielo.lio:order-manager:2.1.7',
+        'com.cielo.lio:order-manager:2.5.1',
         'br.com.maqplan.contrato:smartpos:3.4-SNAPSHOT',
         'br.com.maqplan.java:utils:0.1-SNAPSHOT',
         'com.google.code.gson:gson:2.10.1'
