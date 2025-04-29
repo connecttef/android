@@ -34,7 +34,9 @@ def cieloDeps = [
         'com.cielo.lio:order-manager:2.5.1',
         'br.com.maqplan.contrato:smartpos:3.4-SNAPSHOT',
         'br.com.maqplan.java:utils:0.1-SNAPSHOT',
-        'com.google.code.gson:gson:2.10.1'
+        'com.google.code.gson:gson:2.10.1',
+        'com.squareup.retrofit2:retrofit:2.9.0',
+        'com.squareup.retrofit2:converter-gson:2.9.0'
 ]
 
 def stoneDeps = [
