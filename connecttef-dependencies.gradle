@@ -40,13 +40,13 @@ def cieloDeps = [
 ]
 
 def stoneDeps = [
-        'br.com.maqplan.android:sdk-stone:0.2.0-SNAPSHOT',
-        "br.com.stone:stone-sdk:4.8.7",
-        "br.com.stone:stone-sdk-posandroid:4.8.7",
-        "br.com.stone:stone-sdk-posandroid-ingenico:4.8.7",
-        "br.com.stone:stone-sdk-posandroid-gertec:4.8.7",
-        "br.com.stone:stone-sdk-posandroid-sunmi:4.8.7",
-        "br.com.stone:stone-sdk-posandroid-positivo:4.8.7",
+        'br.com.maqplan.android:sdk-stone:0.2.2-SNAPSHOT',
+        "br.com.stone:stone-sdk:4.11.2",
+        "br.com.stone:stone-sdk-posandroid:4.11.2",
+        "br.com.stone:stone-sdk-posandroid-ingenico:4.11.2",
+        "br.com.stone:stone-sdk-posandroid-gertec:4.11.2",
+        "br.com.stone:stone-sdk-posandroid-sunmi:4.11.2",
+        "br.com.stone:stone-sdk-posandroid-positivo:4.11.2",
         'com.github.permissions-dispatcher:permissionsdispatcher:4.8.0',
         'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1',
         'br.com.maqplan.contrato:smartpos:3.4-SNAPSHOT'
